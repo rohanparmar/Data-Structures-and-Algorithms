@@ -2,6 +2,11 @@
 # Very good for searching ordered list of elements
 # Could be good for searching products on eCommerce Websites?
 
+# Binary Search runs in Logarithmic time
+# -> O(log n) notation
+# 100 items -> 7 Guesses
+# 4,000,000 items -> 32 Guesses
+
 def binary_search(list, item): 
     
     low = 0
